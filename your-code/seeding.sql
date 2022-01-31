@@ -1,43 +1,44 @@
-INSERT INTO Customers (ID,Customer_ID,Name,Phone,Email,Adress,City,Province,Country,Postal)
-VALUES ("0","10001","Pablo Picasso","+34636176382","-","Paseo de la Chopera, 14","Madrid","Madrid","Spain","28045");
-INSERT INTO Customers (ID,Customer_ID,Name,Phone,Email,Adress,City,Province,Country,Postal)
-VALUES ("1","20001","Hedy Lamarr","+431514442250","-","Weiglgasse 10","Madrid","Viena","Austria","1150");
-INSERT INTO Customers (ID,Customer_ID,Name,Phone,Email,Adress,City,Province,Country,Postal)
-VALUES ("2","30001","Katherine Johnson","+12023580000","-","300 E St SW","Madrid","Washington","United States","20546");
 
-INSERT INTO Salespersons (ID,Staff_ID,Name,Store)
-VALUES ("0","00001","Petey Cruiser","Madrid");
-INSERT INTO Salespersons (ID,Staff_ID,Name,Store)
-VALUES ("1","00002","Anna Sthesia","Barcelona");
-INSERT INTO Salespersons (ID,Staff_ID,Name,Store)
-VALUES ("2","00003","Paul Moliver","Berlin");
-INSERT INTO Salespersons (ID,Staff_ID,Name,Store)
-VALUES ("3","00003","Gail Forcewind","Paris");
-INSERT INTO Salespersons (ID,Staff_ID,Name,Store)
-VALUES ("4","00004","Paige Turner","Mimia");
-INSERT INTO Salespersons (ID,Staff_ID,Name,Store)
-VALUES ("5","00005","Bob Frapples","Mexico City");
-INSERT INTO Salespersons (ID,Staff_ID,Name,Store)
-VALUES ("6","00006","Walter Melon","Amsterdam");
-INSERT INTO Salespersons (ID,Staff_ID,Name,Store)
-VALUES ("7","00007","Shonda Leer","Sao Paulo");
+insert into Cars (ID, VIN, Manufacturer, Model, Year, Color)
+values (0, '3K096I98581DHSNUP', 'Volkswagen', 'Tiguan', 2019, 'Blue');
+insert into Cars (ID, VIN, Manufacturer, Model, Year, Color)
+values (1, 'ZM8G7BEUQZ97IH46V', 'Ford', 'Rifter', 2019, 'Red');
+insert into Cars (ID, VIN, Manufacturer, Model, Year, Color)
+values (2, 'RKXVNNIHLVVZOUB4M', 'Peugeot', 'Fusion', 2018, 'White');
+insert into Cars (ID, VIN, Manufacturer, Model, Year, Color)
+values (3, 'HKNDGS7CU31E9Z7JW', 'Toyota', 'RAV4', 2018, 'Silver');
+insert into Cars (ID, VIN, Manufacturer, Model, Year, Color)
+values (4, 'DAM41UDN3CHU2WVF6', 'Volvo', 'V60', 2019, 'Gray');
+insert into Cars (ID, VIN, Manufacturer, Model, Year, Color)
+values (5, 'DAM41UDN3CHU2WVF6', 'Volvo', 'V60 Cross country', 2019, 'Gray');
 
-INSERT INTO Invoices (ID,Invoice_Number,Date,Customers_ID,Salespersons_ID,Salespersons_ID1)
-VALUES ("0","852399038",'2018-08-18',1,3,1);
-INSERT INTO Invoices (ID,Invoice_Number,Date,Customers_ID,Salespersons_ID,Salespersons_ID1)
-VALUES ("1","731166526",'2018-12-31',0,5,0);
-INSERT INTO Invoices (ID,Invoice_Number,Date,Customers_ID,Salespersons_ID,Salespersons_ID1)
-VALUES ("2","271135104",'2019-31-01',2,7,2);
+insert into Customers (ID, Cust_ID, Name, Phone_num, Email, Address, City, StateProv, Country, ZIP_code)
+values (0, 10001, 'Pablo Picasso', '+34636176382', 'unknown','Paseo de la Chopera 14','Madrid','Madrid','Spain',28045);
+insert into Customers (ID, Cust_ID, Name, Phone_num, Email, Address, City, StateProv, Country, ZIP_code)
+values (1, 20001, 'Hedy Lamarr', '+431514442250', 'unknown','Weiglgasse 10','Viena','Vienna','Austria',1150);
+insert into Customers (ID, Cust_ID, Name, Phone_num, Email, Address, City, StateProv, Country, ZIP_code)
+values (2, 30001, 'Katherine Johnson', '+12023580000', 'unknown','300 E St SW','Washington DC','Washington','United States',20546);
 
-INSERT INTO Cars (ID,VIN,Manufacturer,Model,Year,Color,Invoices_ID,Invoices_Customers_ID,Invoices_Salespersons_ID)
-VALUES ("0","3K096I98581DHSNUP","Volkswagen","Tiguan","2019","Blue");
-INSERT INTO Cars (ID,VIN,Manufacturer,Model,Year,Color,Invoices_ID,Invoices_Customers_ID,Invoices_Salespersons_ID)
-VALUES ("1","ZM8G7BEUQZ97IH46V","Peugeot","Rifter","2019","Red");
-INSERT INTO Cars (ID,VIN,Manufacturer,Model,Year,Color,Invoices_ID,Invoices_Customers_ID,Invoices_Salespersons_ID)
-VALUES ("2","RKXVNNIHLVVZOUB4M","Ford","Fusion","2018","White","0","2","0");
-INSERT INTO Cars (ID,VIN,Manufacturer,Model,Year,Color,Invoices_ID,Invoices_Customers_ID,Invoices_Salespersons_ID)
-VALUES ("3","HKNDGS7CU31E9Z7JW","Toyota","RAV4","2018","Silver","0","2","1");
-INSERT INTO Cars (ID,VIN,Manufacturer,Model,Year,Color,Invoices_ID,Invoices_Customers_ID,Invoices_Salespersons_ID)
-VALUES ("4","DAM41UDN3CHU2WVF6","Volvo","V60","2019","Gray","0","2","0");
-INSERT INTO Cars (ID,VIN,Manufacturer,Model,Year,Color,Invoices_ID,Invoices_Customers_ID,Invoices_Salespersons_ID)
-VALUES ("5","DAM41UDN3CHU2WVF6","Volvo","V60 Cross Country","2019","Gray","0","2","1");
+insert into Salesperson (ID, Staff_ID ,Name ,Store)
+values (0, 00001, 'Petey Cruiser', 'Madrid');
+insert into Salesperson (ID, Staff_ID ,Name ,Store)
+values (1, 00002, 'Anna Sthesia', 'Barcelona');
+insert into Salesperson (ID, Staff_ID ,Name ,Store)
+values (2, 00003, 'Paul Molive', 'Berlin');
+insert into Salesperson (ID, Staff_ID ,Name ,Store)
+values (3, 00004, 'Gail Forcewind', 'Paris');
+insert into Salesperson (ID, Staff_ID ,Name ,Store)
+values (4, 00005, 'Paige Turner', 'Miami');
+insert into Salesperson (ID, Staff_ID ,Name ,Store)
+values (5, 00006, 'Bob Frapples', 'Mexico City');
+insert into Salesperson (ID, Staff_ID ,Name ,Store)
+values (6, 00007, 'Walter Melon', 'Amsterdam');
+insert into Salesperson (ID, Staff_ID ,Name ,Store)
+values (7, 00008, 'Shonda Leer', 'São Paulo')
+
+insert into Invoice (ID, Inv_Number, date, Cars_ID, Customers_ID, Salesperson_ID)
+values (0, 852399038, '2018-08-22', 0, 1, 3);
+insert into Invoice (ID, Inv_Number, date, Cars_ID, Customers_ID, Salesperson_ID)
+values (1, 731166526, '2018-12-31', 3, 0, 5);
+insert into Invoice (ID, Inv_Number, date, Cars_ID, Customers_ID, Salesperson_ID)
+values (2, 271135104, '2019-01-22', 2, 2, 7);
