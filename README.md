@@ -87,8 +87,8 @@ For your convenience, we provide you some example dummy data. These dummy data m
 | ID | Customer ID | Name | Phone | Email | Address | City | State/Province | Country | Postal |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0 | 10001 | Pablo Picasso | +34 636 17 63 82 | - | Paseo de la Chopera, 14 | Madrid | Madrid | Spain | 28045 |
-| 1 | 20001 | Abraham Lincoln | +1 305 907 7086 | - | 120 SW 8th St | Miami | Florida | United States | 33130 |
-| 2 | 30001 | Napoléon Bonaparte | +33 1 79 75 40 00 | - | 40 Rue du Colisée | Paris | Île-de-France | France | 75008 |
+| 1 | 20001 | Hedy Lamarr | +43 1 514442250 | - | Weiglgasse 10 | Viena | Vienna | Austria | 1150 |
+| 2 | 30001 | Katherine Johnson | +1 202 358 0000 | - | 300 E St SW | Washington, DC | Washington | United States | 20546 |
 
 ### Salespersons
 
@@ -149,7 +149,7 @@ In addition, you also find a duplicated car entry for VIN `DAM41UDN3CHU2WVF6`. Y
 	- Also your instructor and TA will provide support to you.
 
 1. Create a pull request with title following this format: **`[<lab_name>] <your_name>`**
-  	- For example, if the lab is *lab-mysql* and your name is *Marc Pomar*, your pull request name should be something like **`[lab-mysql] Marc Pomar`**.
+  	- For example, if the lab is *lab-mysql* and your name is *Yonatan Rodriguez*, your pull request name should be something like **`[lab-mysql] Yonatan Rodriguez`**.
 
 1. If you have successfully created the pull request you are done!  CONGRATS :)
 
