@@ -31,7 +31,7 @@ Before solving this challenge, review your lesson about database structure and d
 
 Your end product of this challenge should look something like below, though it doesn't have to be that complicated:
 
-![ERD](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/data-static/images/erd.png)
+![ERDiagram](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/data-static/images/erd.png)
 
 If you use pen and paper to create the design, take a picture with your phone and send the image to yourself. If you use software to create the database diagram, export in the image format (JPG or PNG). Either way, the image will be submitted as one of the deliverables.
 
