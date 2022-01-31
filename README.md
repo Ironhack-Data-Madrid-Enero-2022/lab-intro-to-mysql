@@ -118,8 +118,8 @@ Now you find an error you need to fix in your existing data - in the Salesperson
 | Name | Email |
 | --- | ---|
 | Pablo Picasso | ppicasso@gmail.com |
-| Abraham Lincoln | lincoln@us.gov |
-| Napoléon Bonaparte | hello@napoleon.me |
+| Hedy Lamarr | lamarr_hd@hollywood.com |
+| Katherine Johnson | hello@nasa.gov |
 
 Create **`update.sql`** to update your existing data.
 
