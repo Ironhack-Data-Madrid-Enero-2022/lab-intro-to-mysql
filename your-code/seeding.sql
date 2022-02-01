@@ -1,0 +1,45 @@
+INSERT IGNORE INTO cars(VIN,MANUFACTURER,MODEL,YEAR,COLOR) 
+VALUES("3K096I98581DHSNUP","Volkswagen","Tiguan","2019","Blue");
+INSERT IGNORE INTO cars (VIN,MANUFACTURER,MODEL,YEAR,COLOR)
+VALUES('ZM8G7BEUQZ97IH46V', 'Peugeot', 'Rifter', '2019', 'Red');
+INSERT IGNORE INTO cars (VIN,MANUFACTURER,MODEL,YEAR,COLOR)
+VALUES('RKXVNNIHLVVZOUB4M', 'Ford', 'Fusion', '2018', 'White');
+INSERT IGNORE INTO cars (VIN,MANUFACTURER,MODEL,YEAR,COLOR)
+VALUES('HKNDGS7CU31E9Z7JW', 'Toyota', 'RAV4', '2018', 'Silver');
+INSERT IGNORE INTO cars (VIN,MANUFACTURER,MODEL,YEAR,COLOR)
+VALUES('DAM41UDN3CHU2WVF6', 'Volvo', 'V60', '2019', 'Gray');
+INSERT IGNORE INTO cars (VIN,MANUFACTURER,MODEL,YEAR,COLOR)
+VALUES('DAM41UDN3CHU2WVF6', 'Volvo', 'V60 Cross Country', '2019', 'Gray');
+
+
+INSERT IGNORE INTO custumer (idCustumer,NAME,PHONENUMBER,EMAIL,ADRESS,CITY,`STATE/PROVINCE`,COUNTRY,`ZIP/POSTAL CODE`,Custumercol)
+VALUES('10001','Pablo Picasso',  '+34 636 17 63 82',  '-',  'Paseo de la Chopera, 14',  'Madrid',  'Madrid',  'Spain',  '28045', NULL);
+INSERT IGNORE INTO custumer (idCustumer,NAME,PHONENUMBER,EMAIL,ADRESS,CITY,`STATE/PROVINCE`,COUNTRY,`ZIP/POSTAL CODE`,Custumercol)
+VALUES('20001',  'Hedy Lamarr',  '+43 1 514442250',  '-',  'Weiglgasse 10',  'Viena',  'Vienna',  'Austria',  '1150', NULL);
+INSERT IGNORE INTO custumer (idCustumer,NAME,PHONENUMBER,EMAIL,ADRESS,CITY,`STATE/PROVINCE`,COUNTRY,`ZIP/POSTAL CODE`,Custumercol)
+VALUES(  '30001',  'Katherine Johnson',  '+1 202 358 0000',  '-',  '300 E St SW',  'Washington, DC',  'Washington',  'United States',  '20546', NULL);
+
+
+INSERT IGNORE INTO salesperson (StaffID,NAME,STORE)
+VALUES('00001', 'Petey Cruiser', 'Madrid');
+INSERT IGNORE INTO salesperson (StaffID,NAME,STORE)
+VALUES('00002', 'Anna Sthesia', 'Barcelona');
+INSERT IGNORE INTO salesperson (StaffID,NAME,STORE)
+VALUES('00003', 'Paul Molive', 'Berlin');
+INSERT IGNORE INTO salesperson (StaffID,NAME,STORE)
+VALUES('00004', 'Gail Forcewind', 'Paris');
+INSERT IGNORE INTO salesperson (StaffID,NAME,STORE)
+VALUES('00005', 'Paige Turner', 'Mimia');
+INSERT IGNORE INTO salesperson (StaffID,NAME,STORE)
+VALUES('00006', 'Bob Frapples', 'Mexico City');
+INSERT IGNORE INTO salesperson (StaffID,NAME,STORE)
+VALUES('00007', 'Walter Melon', 'Amsterdam');
+INSERT IGNORE INTO salesperson (StaffID,NAME,STORE)
+VALUES('00008', 'Shonda Leer', 'São Paulo');
+
+INSERT IGNORE INTO invoices (InvoiceNumber,DATE)
+VALUES('852399038', '22-08-2018');
+INSERT IGNORE INTO invoices (InvoiceNumber,DATE)
+VALUES('731166526', '31-12-2018');
+INSERT IGNORE INTO invoices (InvoiceNumber,DATE)
+VALUES('271135104', '22-01-2019');
